@@ -1,0 +1,40 @@
+# NOT: Versiyonlar kasıtlı olarak sabitlenmedi (pin edilmedi) — langchain/chromadb
+# ekosistemi hızlı değiştiği için katı pinler kısa sürede çakışmaya neden olabilir.
+# Çalışan bir ortam kurduktan sonra `pip freeze > requirements.lock.txt` ile
+# kendi sabit halini oluşturman önerilir.
+
+# Ingestion & parsing
+pymupdf
+python-docx
+beautifulsoup4
+
+# Orkestrasyon (Airflow yerine — bkz. docs/karar_gunlugu.md)
+prefect
+
+# Data quality
+langdetect
+
+# Chunking & Embedding & Vektör DB
+langchain-text-splitters
+langchain-huggingface
+sentence-transformers
+chromadb
+rank-bm25
+
+# LLM istemcileri
+openai
+
+# Web arama (fallback)
+tavily-python
+
+# API & Arayüz
+fastapi
+uvicorn
+pydantic
+streamlit
+requests
+
+# Utils
+python-dotenv
+tqdm
+

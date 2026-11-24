@@ -1,0 +1,16 @@
+# Gizli anahtarlar
+.env
+
+# Veri ve sanal ortam
+data/
+venv/
+.venv/
+
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Geçici test/script çıktıları (repoda olmasını istemiyorsan)
+proje_ozeti.txt
+son_web_verisi.txt
